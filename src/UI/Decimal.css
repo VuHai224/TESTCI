@@ -1,0 +1,43 @@
+.main {
+  height: 40vh;
+  width: 70%;
+  border: 1px solid rgb(0, 0, 0, 0.25);
+}
+.title {
+  font-size: 3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.subtitle {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .input {
+  width: 60%;
+}
+.input2 {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+.error {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+.success {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+.display {
+  margin: 0;
+  padding: 0;
+}
